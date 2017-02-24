@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="elasticsearch_listener">
+    <CLASSES>
+      <root url="file://$USER_HOME$/Desktop/elasticsearch_listener" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$USER_HOME$/Desktop/elasticsearch_listener/src" />
+    </SOURCES>
+  </library>
+</component>
