@@ -2,16 +2,9 @@ package com.rsg.jenkins
 
 class Cucumber implements Serializable {
 
-    private org.jenkinsci.plugins.workflow.cps.CpsScript script
+    def steps
 
-    Cucumber(org.jenkinsci.plugins.workflow.cps.CpsScript script) {
-        this.script = script
+    Cucumber(steps) {
+        this.steps = steps
     }
-
-    def <V> V withOptions(String test) {
-        node {
-            script.sh "ls -l"
-        }
-    }
-
 }
