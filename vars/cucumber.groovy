@@ -1,6 +1,6 @@
 // vars/cucumber.groovy
 def call(Closure body) {
-    node('cucumber') {
+    stage("cucumber") {
         body()
     }
 }
